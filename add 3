@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int gcd(int a, int b)
+{
+    if (b == 0)
+        return a;
+    return gcd(b, a % b);
+}
+
+int main()
+{
+    int t ,n, i,r, temp ;
+    cin >> t ;
+    while(t--)
+    {
+        cin >> n ;
+        int a[n] ;
+    return 0;
+}
