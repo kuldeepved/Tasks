@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1594426883 source:c:\users\kulde\c++\chefstr1\main.cpp
+	<iostream>
+	<stdlib.h>
+
