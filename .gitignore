@@ -1,0 +1,44 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+*.secret
+
+# Logs & output
+logs/
+*.log
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Docker-related
+docker-compose.override.yml
+.dockerignore
+*.tar
+
+# Node.js dependencies (if frontend involved)
+node_modules/
+package-lock.json
+
+# CI/CD configuration artifacts
+*.tfstate
+terraform.tfstate.d/
+.idea/
+.vscode/
+*.swp
+coverage/
+junit.xml
+
+# Ignore system files
+.DS_Store
+Thumbs.db

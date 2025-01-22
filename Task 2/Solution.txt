@@ -1,0 +1,17 @@
+Part 1 
+The High Level Flow diagram is attached as "US_Electricity_Flow.png"
+
+Part 2 
+Containerization:
+The entire model environment, including code, libraries, and dependencies, is wrapped in a lightweight, portable Docker container.
+This ensures the model can be portably deployed anywhere, maintaining the same environment, regardless of the underlying system.
+For execution:
+1. Create a Dockerfile: Add all the dependecies to setup the environment (dockerfile)
+2. Build docker image: Using the command "docker build -t image-name/tag"
+3. Run the container: After building the image we can run the container locally "docker run -p 5000:5000 "
+
+
+Part 3 
+YAML file is commonly used for adding configurations of CI/CD pipelines like workflows, environment variables, deployment configurations etc.
+For CI/CD, YAML defines how pipeline should run i.e. steps to build, test, deploy model or application.
+It is useful as we can add multiple stages of deployment.

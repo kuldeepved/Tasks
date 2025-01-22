@@ -1,0 +1,1 @@
+Adding the problem statement and description of solution for both the tasks.
